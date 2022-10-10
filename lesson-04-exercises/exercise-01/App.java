@@ -1,5 +1,10 @@
 public class App {
     public static void main(String[] args) {
+        if(args.length!=6){
+            System.out.println("Uso: java App <xvertice1> <yvertice1> <xvertice2> <yvertice2> <xvertice3> <yvertice3>");
+            return;
+        }
+
         // obtenção dos valores pela linha de comando
         double x1 = Double.parseDouble(args[0]); 
         double y1 = Double.parseDouble(args[1]);

@@ -14,5 +14,7 @@ public class Ponto{
         return y;
     }
 
-
+    public double getDistancia(Ponto p){
+        return  Math.sqrt(Math.pow((this.x - p.x),2) + Math.pow((this.y - p.y),2));
+    }
 }
