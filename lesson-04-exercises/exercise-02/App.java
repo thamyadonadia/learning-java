@@ -3,8 +3,8 @@ public class App {
         ContaCorrente c1 = new ContaCorrente("Cliente 1", 1000.0);
         ContaCorrenteEspecial c2 = new ContaCorrenteEspecial("Cliente 2", 1000.0);
 
-        System.out.println(c1.getNome() + " (" + c1.getTipo() + ") :\n" + "   Saldo atual: R$" + c1.getSaldo());
-        System.out.println(c2.getNome() + " (" + c2.getTipo() + ") :\n" + "   Saldo atual: R$" + c2.getSaldo());
+        System.out.println(c1.getNome() + " (" + c1.getTipo() + "):\n" + "   Saldo atual: R$" + c1.getSaldo());
+        System.out.println(c2.getNome() + " (" + c2.getTipo() + "):\n" + "   Saldo atual: R$" + c2.getSaldo());
 
         System.out.println("\n---------- Realizando o saque nas contas ---------- ");
 

@@ -15,7 +15,7 @@ public class ContaCorrente {
 
     public Boolean sacar(double quantia) {
         if (saldo >= quantia) {
-            saldo -= quantia + (0.005 * quantia);
+            saldo -= quantia + (0.05 * quantia);
             return true;
         } else {
             return false;

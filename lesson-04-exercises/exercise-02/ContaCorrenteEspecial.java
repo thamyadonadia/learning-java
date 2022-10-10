@@ -7,7 +7,7 @@ public class ContaCorrenteEspecial extends ContaCorrente {
     @Override
     public Boolean sacar(double quantia) {
         if (this.saldo >= quantia) {
-            this.saldo -= quantia + (0.001 * quantia);
+            this.saldo -= quantia + (0.01 * quantia);
             return true;
         } else {
             return false;
