@@ -1,0 +1,13 @@
+@startuml diagrama1
+Pessoa <-- Funcionário
+class Pessoa{
+    nome : String
+}
+
+class Funcionário{
+    salário : double 
+}
+
+Funcionário <|-- FuncionárioTempoParcial
+Funcionário "*" ---right "0..1" Sala : ocupa >
+@enduml 
