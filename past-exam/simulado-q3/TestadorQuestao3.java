@@ -25,7 +25,7 @@ Jardim da Penha
 João Paulo Almeida
 1000
 Barrack Obama
-1000000.50
+1000000,50
 Bob Dylan
 900000
 
@@ -59,8 +59,7 @@ public class TestadorQuestao3 {
 			agencia.adicionaConta(conta);
 		}
 
-		// alterei essa função para uma toString: System.out.println(banco);
-		System.out.println(banco.toString());
+		System.out.println(banco);
 		scanner.close();
 	}
 

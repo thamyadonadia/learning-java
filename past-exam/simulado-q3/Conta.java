@@ -1,5 +1,6 @@
+
 public class Conta {
-    private String nomeCliente;
+    private String nomeCliente; 
     private double saldoInicial;
 
     public Conta(String nomeCliente, double saldoInicial) {
@@ -7,7 +8,7 @@ public class Conta {
         this.saldoInicial = saldoInicial;
     }
 
-    public double getSaldoInicial(){
+    public double getSaldoInicial() {
         return saldoInicial;
     }
 }
